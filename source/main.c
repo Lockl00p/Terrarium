@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
 	NF_InitTiledBgSys(0);
 
 	// Load the Tiled Background
-	NF_LoadTiledBg("Background", "Background", 256, 256);
+	NF_LoadTiledBg("bg/Background", "Background", 256, 256);
 
 	NF_CreateTiledBg(0, 3, "Background");
 	
